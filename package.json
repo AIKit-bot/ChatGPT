@@ -1,0 +1,27 @@
+{
+  "name": "chatgpt-electron",
+  "version": "1.0.0",
+  "main": "main.js",
+  "license": "MIT",
+  "author": {
+    "name": "ChatGPT",
+    "email": "hi@aikit.tech"
+  },
+  "description": "ChatGPT is a chatbot that uses GPT-3 to generate responses.",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.5",
+    "@electron-forge/maker-deb": "^6.0.5",
+    "@electron-forge/maker-rpm": "^6.0.5",
+    "@electron-forge/maker-squirrel": "^6.0.5",
+    "@electron-forge/maker-zip": "^6.0.5",
+    "electron": "^23.0.0"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0"
+  }
+}
