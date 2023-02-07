@@ -10,8 +10,9 @@ A reliable and stable AI assistant for your Windows desktop.
 
 ## Solving Problems
 
+### Problem 1: `An error occurred.`
+> An error occurred. If this issue persists please contact us through our help center at help.openai.com
 ![An error occurred.](images/problem-1.png)
-"An error occurred. If this issue persists please contact us through our help center at help.openai.com."
 
 ## Getting Started
 
