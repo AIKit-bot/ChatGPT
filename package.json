@@ -1,13 +1,14 @@
 {
   "name": "chatgpt-electron",
+  "productName": "ChatGPT",
   "version": "1.0.0",
   "main": "main.js",
   "license": "MIT",
   "author": {
-    "name": "ChatGPT",
+    "name": "AIKit.tech",
     "email": "hi@aikit.tech"
   },
-  "description": "ChatGPT is a chatbot that uses GPT-3 to generate responses.",
+  "description": "ChatGPT Desktop - Stable AI Assistance on Your Desktop. Enjoy a seamless experience with automatic network error refresh.",
   "scripts": {
     "start": "electron-forge start",
     "package": "electron-forge package",

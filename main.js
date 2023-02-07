@@ -11,6 +11,7 @@ const createWindow = () => {
     webPreferences: {
       preload: path.join(__dirname, "render/preload.js"),
     },
+    icon: path.join(__dirname, "images/logo.ico"),
   });
 
   win.loadURL("https://chat.openai.com/chat");
